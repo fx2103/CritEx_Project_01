@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under the Skin - Taxidermy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&family=Acafela+Flux&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <h1>标本菜谱：我的家庭从内到外</h1>
+        <p>I decided to create illustrations with the family-themed food. I combined the characteristics of food with the personal hobbies and lifestyles of my family members together. By using the ways of paper-cut and hierarchical collage, I created this group of micro stereo illustrations.</p>
+    </div>
+    <div class="container">
+        <div class="image-wrapper">
+            <img id="dad" src="dad_out.jpg" alt="Dad Out" onclick="toggleImage('dad', 'dad_inside.jpg', 'dad_out.jpg')">
+        </div>
+        <div class="image-wrapper">
+            <img id="mom" src="mom_out.jpg" alt="Mom Out" onclick="toggleImage('mom', 'mom_inside.jpg', 'mom_out.jpg')">
+        </div>
+        <div class="image-wrapper">
+            <img id="me" src="me_out.jpg" alt="Me Out" onclick="toggleImage('me', 'me_inside.jpg', 'me_out.jpg')">
+        </div>
+        <div class="image-wrapper">
+            <img id="dod" src="dod_out.jpg" alt="Dog Out" onclick="toggleImage('dod', 'dod_inside.jpg', 'dod_out.jpg')">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
